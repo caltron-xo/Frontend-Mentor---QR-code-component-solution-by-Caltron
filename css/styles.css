@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 62.5% of 16px = 10px; Therefore, 1rem = 10px */
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+    height: 47rem;
+    width: 30rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 1rem 10rem rgba(0, 0, 0, 0.1);
+}
+
+.card img{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.card h3{
+  color: hsl(218, 44%, 22%);
+  padding: 0 1rem;
+  font-size: 2rem;
+}
+
+.card p{
+  color: hsl(220, 15%, 55%);
+  padding: 0 1rem;
+}
+
+.attribution { 
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%,0);
+  font-size: 1.5rem; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
