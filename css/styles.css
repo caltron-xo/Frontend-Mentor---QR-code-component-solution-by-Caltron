@@ -22,11 +22,11 @@ body{
 }
 
 .card {
-    height: 47rem;
-    width: 30rem;
+    max-width: 32rem;
+    height: 49.8rem;
     background-color: white;
     border-radius: 2rem;
-    padding: 1.5rem;
+    padding: 1.6rem;
     text-align: center;
     box-shadow: 0 1rem 10rem rgba(0, 0, 0, 0.1);
 }
@@ -38,13 +38,16 @@ body{
 
 .card h3{
   color: hsl(218, 44%, 22%);
-  padding: 0 1rem;
-  font-size: 2rem;
+  padding: 0 1.3rem;
+  font-size: 2.2rem;
+  line-height: 2.7rem;
+  margin-bottom: 0;
 }
 
 .card p{
   color: hsl(220, 15%, 55%);
-  padding: 0 1rem;
+  padding: 0 1.2rem;
+  line-height: 2rem;
 }
 
 .attribution { 
