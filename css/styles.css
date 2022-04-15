@@ -60,5 +60,9 @@ body{
 }
 
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: #0059de; 
+}
+
+.attribution a:hover { 
+  color: #3685fe; 
 }
